@@ -1,5 +1,5 @@
 {
-  "name": "leocarmo/circuit-breaker-php",
+  "name": "idealizetecnologia/circuit-breaker-php",
   "description": "Circuit Breaker for PHP",
   "type": "library",
   "license": "MIT",
