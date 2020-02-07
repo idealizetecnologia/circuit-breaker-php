@@ -131,6 +131,6 @@ class RedisAdapter implements AdapterInterface
             return $this->cachedService[$service];
         }
 
-        return $this->cachedService[$service] = 'circuit-breaker:' . $this->redisNamespace . ':' . base64_encode($service);
+        return $this->cachedService[$service] = $this->redisNamespace . ':' . base64_encode($service);
     }
 }
